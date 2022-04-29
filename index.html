@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ghiceste Cuvantul</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Ghiceste Cuvantul ???</h1>
+  </header>
+  <main>
+    <button class="again btn">DinNou</a>
+    </button>
+    <section class="left">
+      <div class="question">?</div>
+
+
+
+      <label for="category" id="labelC">Categoria</label>
+
+      <select name="category" id="category">
+        <option value="select">Categorie</option>
+        <option value="cars">Masini</option>
+        <option value="motorcycle">Motociclete</option>
+        <option value="animales">Animale</option>
+        <option value="countries">Tari</option>
+        <option value="citys">Orase</option>
+        <option value="romania">Romania</option>
+        <option value="shows">Seriale</option>
+        <option value="movies">Filme</option>
+        <option value="songs">Melodi</option>
+        <option value="songArt">Cantareti</option>
+        <option value="DJ">DJ</option>
+        <option value="actores">Actori</option>
+        <option value="games">JocuriPC</option>
+        <option value="programing">Porgramare</option>
+        <option value="random">Random</option>
+      </select>
+
+
+      <p id="clue">Indiciu</p>
+      <h4 id="cluue">INDICIU</h4>
+      <!-- <a href id="liters"></a> -->
+
+      <label for="word" id=wordL>Cuvant</label>
+
+      <input type="text" id="word" maxlength="30" />
+
+
+
+    </section>
+    <section class="right">
+      <p class=" message"><b>Incearca sa Ghicesti 😊</p>
+      <p class="label-score">💯 Score <span class="score">0</span></p>
+      <b class="label-highscore">🔥 Highscore <span class="highscore">0</span></b></p>
+      <button class="check btn">Verifica</button>
+
+    </section>
+    <button class="show-model" id="model1">Hint</button>
+    <button class="show-model" id="model2">Hint</button>
+  </main>
+  <div class="modal hidden">
+    <button class="close-modal">x</button>
+    <h2>
+      Ghiceste Cuvantul este primul meu proiect functional in javascript,
+      este simplu de jucat alegeti o categorie,introduce-ti un cuvant in
+      inputul unde scrie CUVANT, iar ca indiciu aveti o imagine de background care
+      are legatura cu Cuvantul random generat ,sau un indiciu in Oputul INDICIU
+      care are legatura directa cu cuvantul
+      <br><b>!!! Atentie Cuvintele trebuie introduse exact ca in Indiciu conteaza
+        daca scrie-ti cu litera mica sau mare 😊</b>
+      <br>Pentru sugesti, idei de proiecte noi ma puteti contacta
+      pe mail:razvanvasile20022@gmail.com,
+      <br>Pentru a disparea Mesaju apasa pe tasta Escape sau pe X,
+      <br>Folositi o rezolutie de 1920x1080 pentru o performanta ridicata,
+      <br>Spor la Jucat 😉😊😀
+    </h2>
+  </div>
+  </section>
+  <div class="overlay hidden"></div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
